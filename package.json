@@ -1,18 +1,24 @@
 {
   "name": "mundo-geek-api",
   "version": "1.0.0",
-  "type": "module",
+  
   "scripts": {
     "dev": "nodemon --watch src/**/*.ts --exec tsx src/server.ts"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "typeorm": "^0.3.0",
-    "pg": "^8.11.0",
-    "zod": "^3.22.0",
-    "dotenv": "^16.3.1",
-    "reflect-metadata": "^0.1.13"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davibrasil05/mundo-geek-indt.git"
   },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+
+  "bugs": {
+    "url": "https://github.com/Davibrasil05/mundo-geek-indt/issues"
+  },
+  "homepage": "https://github.com/Davibrasil05/mundo-geek-indt#readme",
   "devDependencies": {
     "typescript": "^5.0.0",
     "ts-node": "^10.9.1",
