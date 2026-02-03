@@ -11,7 +11,7 @@ export const appDataSource = new DataSource({
     port: Number(process.env.DB_PORT) || 5432,
     username: process.env.DB_USER || "postgres",
     password: process.env.DB_PASS || "123",
-    database: process.env.DB_NAME || "reservaIot2",
+    database: process.env.DB_NAME || "mundo_geek",
     
     // ATENÇÃO AQUI: Em produção (dentro do Docker), o caminho muda para .js
     entities: [
